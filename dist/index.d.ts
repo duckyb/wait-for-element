@@ -1,8 +1,8 @@
 import { Observable } from 'rxjs';
 
 /**
- * An observable that starts polling for the leaflet instance.
- * When the instance is available it is returned.
+ * An observable that starts polling for the element.
+ * As soon as the element is available it is returned.
  */
 declare function waitForElement$({ root, ticks, refreshInterval, query, }: {
     /** The root element to search in. */
