@@ -1,5 +1,5 @@
 {
-  "name": "wait-for-element",
+  "name": "observable-wait-for-element",
   "version": "1.0.0",
   "description": "Wait for an element to be present in the DOM",
   "main": "dist/index.js",
