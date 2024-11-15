@@ -1,6 +1,6 @@
 {
   "name": "observable-wait-for-element",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wait for an element to be present in the DOM",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
