@@ -1,9 +1,10 @@
 import { defer, Observable, of, timer } from 'rxjs';
 import { switchMap, first } from 'rxjs/operators';
 
+
 /**
- * An observable that starts polling for the leaflet instance.
- * When the instance is available it is returned.
+ * An observable that starts polling for the element.
+ * As soon as the element is available it is returned.
  */
 function waitForElement$({
   root = document,
